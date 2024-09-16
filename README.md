@@ -49,7 +49,7 @@ A continuación, se detallan los pasos para desplegar los distintos componentes 
 | **Diseño Nube**          | Configuración de LocalStack, API Gateway y despliegue de funciones Lambda.      | [Diseño Nube](https://github.com/koga117/Catalogacion/blob/main/Dise%C3%B1oNube)  |
 | **Frontend Angular**     | Proyecto frontend en Angular para el e-commerce.                                | [Frontend Angular](https://github.com/koga117/ecomerce-frontend)  |
 | **Backend Pedidos**      | Servicio backend para gestión de pedidos en Node.js/Express.                    | [Backend Pedidos](https://github.com/koga117/order-management-service)  |
-| **Backend Productos**    | Servicio backend para gestión de productos en Spring Boot.                      | [Backend Productos](URL_A_DEFINIR) |
+| **Backend Productos**    | Servicio backend para gestión de productos en Spring Boot.                      | [Backend Productos](https://github.com/koga117/catalogo-service) |
 
 ---
 
