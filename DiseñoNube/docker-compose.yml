@@ -1,0 +1,13 @@
+services:
+  localstack:
+    image: localstack/localstack
+    ports:
+      - "4566:4566"
+      - "4571:4571"
+    environment:
+      - SERVICES=lambda,s3,cloudwatch,logs,dynamodb,iam,apigateway
+      - DEBUG=1
+      - LAMBDA_EXECUTOR=docker
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock"
+      - "./localstack-data:/tmp/localstack-data"  # Cambiar directorio temporal
